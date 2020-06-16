@@ -1,0 +1,49 @@
+{
+  "model": {
+    "subject": "Model: {model_name}",
+    "description": {
+      "pre_note": "## Antes de implementar\n\n{pre_note}",
+      "intro_fields": "## Implementar model {model_name} - *{model}*:\n",
+      "fields": "{fields}",
+      "post_note": "## Importante:\n\n{post_note}"
+    },
+    "field": "* **{field_name}:**\n    * **Obrigatório:** {required}\n    * **Descrição:** {description}"
+  },
+  "integrity_test": {
+    "subject": "Model {model_name} - {model}: Testes de Integridade",
+    "description": {
+      "content": "{content}"
+    }
+  },
+  "form": {
+    "subject": "Form: {model_name} - {model}",
+    "description": {
+      "content": "{content}"
+    }
+  },
+  "form_test": {
+    "subject": "Testar Form: {model_name} - {model}",
+    "description": {
+      "content": "{content}"
+    }
+  },
+  "rest_serializer": {
+    "subject": "Serializer: {model_name} - {model}",
+    "description": {
+      "content": "{content}"
+    }
+  },
+  "rest_viewset": {
+    "subject": "Viweset: {model_name} - {model}",
+    "description": {
+      "content": "{content}"
+    }
+  },
+  "rest_endpoints": {
+    "subject": "Endpoints: {model_name} - {model}",
+    "description": {
+      "endpoints": "{endpoints}"
+    },
+    "endpoint": "```\n{method} {uri}\n```\n\n{description}"
+  }
+}

@@ -8,8 +8,19 @@ django-extensions = "*"
 
 [packages]
 django = "*"
+# Core
+inquirer = "*"
+drf-nested-routers = "*"
+jsonfield2 = "*"
+django-url-filter = "*"
+django-localflavor = "*"
+# settings
 python-decouple = "*"
 dj-database-url = "*"
+uwsgi = "*"
+# Project
+python-redmine = "*"
+django-jsonfield = "*"
 
 [requires]
 python_version = "3.7"

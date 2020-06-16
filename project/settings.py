@@ -39,6 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'apps.redmine_settings',
+    'apps.redmine_project',
+    'apps.tasker',
 ]
 
 if DEBUG:
@@ -116,3 +120,12 @@ USE_TZ = True
 STATIC_URL = "/static/"
 # STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
+# ============================ FIXTURES ===================================== #
+FIXTURE_DIRS = [
+    os.path.join(BASE_DIR, 'project', 'fixtures'),
+]
+
+# ============================ REDMINE ====================================== #
+REDMINE_BASE_URL = config("REDMINE_BASE_URL", cast=str)
+REDMINE_API_KEY = config("REDMINE_API_KEY", cast=str)

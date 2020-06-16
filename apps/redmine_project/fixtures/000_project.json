@@ -1,0 +1,13 @@
+[
+  {
+    "model": "redmine_project.project",
+    "pk": "f52bfd96-a9c1-4a5c-9f78-e8fe939d88bc",
+    "fields": {
+      "created_at": "2020-06-09T01:25:15.073Z",
+      "updated_at": "2020-06-09T01:25:15.073Z",
+      "name": "Projeto teste",
+      "slug": "projeto-teste",
+      "redmine_id": "projeto-teste"
+    }
+  }
+]
