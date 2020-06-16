@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "subject": "Ambiente: implementar ambiente",
+    "description": "Implementar ambiente padrão."
+  },
+  "notification": {
+    "subject": "Notificações: lista e alerta de nova notificação",
+    "description": "Implementar experiência de notificações conforme padrão."
+  },
+  "account": {
+    "subject": "Conta de usuário: jornadas",
+    "description": "Implementar jornadas de conta:\n\n* Nova conta;\n* Validação de conta (PIN);\n* Lembrar senha;\n* PIN de lembrete de senha;* Alterar senha;."
+  },
+  "account_profile": {
+    "subject": "Conta de usuário: jornadas",
+    "description": "Implementar painel de usuário com :\n\n* Exibição de dados;\n* Edição de dados;\n* Alterar avatar;\n* Alterar senha;"
+  },
+  "list": {
+    "subject": "Lista: {list_name}",
+    "pre_note": "## Antes de implementar\n\n{pre_note}",
+    "content": {
+      "line_label": "1. {line_label}",
+      "intro_filter_search": "Busca por {search_type}:\n",
+      "filter_search": "* {filter_search}",
+      "intro_filter_select": "Buscas pré-definidas:\n",
+      "filter_select": "* {filter_select}",
+      "intro_list_actions": "Ações sobre a lista:\n",
+      "list_actions": "* {list_action}",
+      "intro_item_actions": "Ações sobre cada linha:\n",
+      "item_actions": "* {item_action}"
+    },
+    "post_note": "## Importante:\n\n{post_note}"
+  },
+  "form": {
+    "subject": "Form: {form_name}",
+    "pre_note": "## Antes de implementar\n\n{pre_note}",
+    "content": {
+      "intro_fields": "Implementar campos:\n",
+      "field": "* {field_name} - {required} - {description}"
+    },
+    "post_note": "## Importante:\n\n{post_note}"
+  },
+  "panel": {
+    "subject": "Painel: {panel_name}",
+    "pre_note": "## Antes de implementar\n\n{pre_note}",
+    "content": {
+      "intro_information": "## Exibir as seguintes informações",
+      "information": "* {info_description}",
+      "intro_fast_access": "## Botões de acessos rápidos",
+      "fast_access": "* {fast_access_description}",
+      "intro_flows": "## Implementar os seguintes fluxos",
+      "flow_name": "* **{flow_name}:**",
+      "flow": "* {flow}",
+      "intro_fields": "## Implementar campos",
+      "field": "* {field_name} - {required} - {description}"
+    },
+    "post_note": "## Importante:\n\n{post_note}"
+  }
+}

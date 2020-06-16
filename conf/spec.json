@@ -1,0 +1,37 @@
+{
+  "ped": [
+    "search",
+    "poc"
+  ],
+  "lib": [
+    "implement",
+    "third_party"
+  ],
+  "backend": [
+    "model",
+    "integrity_test",
+    "form",
+    "form_test",
+    "rest_serializer",
+    "rest_viewset",
+    "rest_endpoint"
+  ],
+  "frontend": [
+    "environment",
+    "notification",
+    "account",
+    "account_profile",
+    "list",
+    "form",
+    "panel"
+  ],
+  "mobile": [
+    "environment",
+    "notification",
+    "account",
+    "account_profile",
+    "list",
+    "form",
+    "panel"
+  ]
+}

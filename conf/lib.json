@@ -1,0 +1,18 @@
+{
+  "implementation": {
+    "subject": "Lib: {lib_name} - definir biblioteca",
+    "description": {
+      "pre_note": "Implementar biblioteca para {lib_name}.",
+      "content": "{content}",
+      "post_note": "**Importante:**\n\n{post_note}"
+    }
+  },
+  "third_party": {
+    "subject": "Lib: {form_name} - definir biblioteca",
+    "description": {
+      "pre_note": "Implementar biblioteca para {lib_name}.",
+      "content": "{content}",
+      "post_note": "**Importante:**\n\n{post_note}"
+    }
+  }
+}

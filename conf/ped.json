@@ -1,0 +1,14 @@
+{
+  "research": {
+    "subject": "P&D: pesquisar sobre {research_name}",
+    "description": {
+      "content": "{content}"
+    }
+  },
+  "poc": {
+    "subject": "PoC: testar {lib_name}",
+    "description": {
+      "content": "{content}"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+[{"model": "tasker.collectionendpoint", "pk": "5e556e26-2feb-43d4-a01e-104dd3bdaac6", "fields": {"created_at": "2020-06-09T00:24:59.058Z", "updated_at": "2020-06-09T01:10:13.481Z", "entity": "c8711f73-c28e-4bc8-bf11-c271e8806a78", "path": "/v1/persons", "description": "Endpoitn para:\r\n\r\n* criar;\r\n* listar;", "creation_endpoint": true, "order": 4}}]
